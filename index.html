@@ -16,31 +16,91 @@
     <div class="container-fluid">
         <div id="carouselHeader" class="carousel slide" data-bs-ride="carousel">
             <div class="carousel-indicators">
-                <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="0" class="active" current="true" aria-label="Farm Fresh Produce"></button>
-                <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="1" aria-label="Farm free delivery"></button>
-                <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="2" aria-label="Shop with our app"></button>
+                <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="0" class="active"
+                    current="true" aria-label="Farm Fresh Produce"></button>
+                <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="1"
+                    aria-label="Farm free delivery"></button>
+                <button type="button" data-bs-target="#carouselHeader" data-bs-slide-to="2"
+                    aria-label="Shop with our app"></button>
             </div>
             <div class="carousel-inner">
-                <div class="carousel-item active">
+                <div class="carousel-item active" data-bs-interval="3000">
                     <img src="/img/FarmFresh.png" alt="from our farm to your table" class="d-block w-100">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="/img/FreeDelivery.png" alt="free delivery" class="d-block w-100">
                 </div>
-                <div class="carousel-item">
+                <div class="carousel-item" data-bs-interval="3000">
                     <img src="/img/FreshApp.png" alt="use our app tp shop" class="d-block w-100">
                 </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselHeader" data-bs-slide="prev">
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
-              </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselHeader" data-bs-slide="next">
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
-              </button>
+            </button>
         </div>
-    </div>       
+        <div class="container pt-5">
+            <div class="row row-cols-1 row-cols-md-3">
+                <div class="col mb-2">
+                    <div class="card h-100 shadow">
+                        <img src="img/indplan.png" class="card-img-top" alt="individual plan">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Individual
+                            </h5>
+                            <p class="card-text">
+                                The perfect plan for just you. Get all the fresh fruit and vegetables you need without
+                                the waste.
+                            </p>
+                            <a href="#" class="btn btn-success">Buy</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-2">
+                    <div class="card h-100 shadow">
+                        <img src="img/FamilyPlan.png" class="card-img-top" alt="family plan">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Family Plan
+                            </h5>
+                            <p class="card-text">
+                                The perfect plan for your family. Bring the freshest fruits and vegetables to your whole
+                                faily.
+                            </p>
+                            <a href="#" class="btn btn-success">Buy</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"></small>
+                        </div>
+                    </div>
+                </div>
+                <div class="col mb-2">
+                    <div class="card h-100 shadow">
+                        <img src="img/armyplan.png" class="card-img-top" alt="army plan">
+                        <div class="card-body">
+                            <h5 class="card-title">
+                                Army Plan
+                            </h5>
+                            <p class="card-text">
+                                You have a really big family or a whole army to feed? This is the plan for you!
+                            </p>
+                            <a href="#" class="btn btn-success">Buy</a>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"></small>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 
     <!-- Bootstrap JS -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
